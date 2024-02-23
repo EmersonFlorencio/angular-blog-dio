@@ -1,0 +1,20 @@
+.card-principal-container {
+  border: solid white 2px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-principal-title>h1 {
+  font-size: 20px;
+}
+
+.card-pricipal-description>p>a {
+  color: grey;
+}
