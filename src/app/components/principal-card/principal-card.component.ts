@@ -1,5 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-principal-card',
@@ -11,5 +11,9 @@ import { Component } from '@angular/core';
   styleUrl: './principal-card.component.css'
 })
 export class PrincipalCardComponent {
+  @Input()
+  cardTitle: String = ""
+  @Input()
+  cardDescription: String = ""
 
 }

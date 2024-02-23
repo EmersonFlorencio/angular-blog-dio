@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from "./pages/home/home.component";
+import { ContentComponent } from "./pages/content/content.component";
+import { NavMenuComponent } from "./components/nav-menu/nav-menu.component";
 
 
 @Component({
@@ -8,7 +10,7 @@ import { HomeComponent } from "./pages/home/home.component";
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [RouterOutlet, HomeComponent]
+  imports: [RouterOutlet, HomeComponent, ContentComponent, NavMenuComponent]
 })
 export class AppComponent {
   title = 'angular-blog-dio';

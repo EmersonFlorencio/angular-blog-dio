@@ -1,0 +1,11 @@
+.nave-menu-container>ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nave-menu-container>ul>li {
+  margin-right: 40px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+}
