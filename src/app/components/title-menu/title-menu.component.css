@@ -1,0 +1,11 @@
+.tile-menu-container {
+  color: white;
+}
+
+.tile-menu-container>h1 {
+  margin: 15px;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
