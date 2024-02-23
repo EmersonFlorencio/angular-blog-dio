@@ -1,0 +1,23 @@
+.others-cards-container {
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.others-cards-container-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.others-cards-img {
+  margin: 20px;
+}
+
+.others-cards-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.others-cards-separator {
+  margin-top: 10px;
+}
