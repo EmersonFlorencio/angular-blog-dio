@@ -1,10 +1,11 @@
 <div class="others-cards-container">
   <div class="others-cards-container-content">
     <div class="others-cards-img">
-      <img ngSrc="./assets/img-placeholder-farol.jpg" alt="imagen de teste" height="150" width="200">
+      <img [ngSrc]="photo" alt="imagen de teste" height="150" width="200">
     </div>
     <div class="others-cards-title">
-      <h1><a href="#">{{ otherTitles }}</a></h1>
+      <h1><a [routerLink]="['/content', id]" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{
+          otherTitles }}</a></h1>
     </div>
   </div>
   <div class="others-cards-separator">
